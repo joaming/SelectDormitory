@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,3"
+    android:background="@drawable/mainbackgrond"
+    android:weightSum="1">
+    <TableRow>
+
+    </TableRow>
+        <ImageView
+           android:src="@drawable/bju"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.20" />
+
+    <TableRow>
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+    </TableRow>
+    <TableRow>
+        <TextView />
+    </TableRow>
+
+    <TableRow>
+        <TextView />
+        <TextView
+            android:text="账  号："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            />
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:minWidth="220px"/>
+        <TextView />
+    </TableRow>
+    <TableRow android:layout_marginTop="20px">
+        <TextView />
+        <TextView
+            android:text="密  码："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="220px"
+            android:textSize="15dp"
+            android:inputType="textPassword"/>
+        <TextView />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp">
+
+        <TextView />
+
+        <TextView />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="登录" />
+
+        <TextView />
+    </TableRow>
+</TableLayout>
+
+
